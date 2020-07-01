@@ -6,43 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sing up</title>
     <!--suvienodiname stiliu tarp narsykliu-->
-    <link rel="stylesheet" href="./ccs/reset.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <!-- pavieniai komponentai-->
     <link rel="stylesheet" href="./css/button.css">
     <link rel="stylesheet" href="./css/form.css">
     <!---custom/kitas stilus-->
     <link rel="stylesheet" href="./css/main.css">
-
+    <link rel="icon" type="image/png" href="/favicon.png" />
 </head>
 
 <body>
+    <div class="background"></div>
     <div class="container">
         <div class="left">
-            <h1>Sing up</h1>
-            <footer>
+            <h1 class="main-title">Sing up</h1>
+            <footer class="footer">
                 <a href="#">Privacy policy</a>
-                <span>&</span>
+                <span>&amp;</span>
                 <a href="#">terms of service</a>
             </footer>
         </div>
         <div class="right">
-            <div class="x">x</div>
-            <form>
+            <a class="close" href="#">
+                <div class="line"></div>
+                <div class="line"></div>
+            </a>
+            <form class="form">
                 <div class="form-row">
-                    <label for="username">Username</label>
-                    <input type="text" name="username">
+                    <label for="">Username</label>
+                    <input type="text" placeholder="Username">
                 </div>
                 <div class="form-row">
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email">
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Email">
                 </div>
                 <div class="form-row">
-                    <label for="password">Password</label>
-                    <input type="password" name="password">
+                    <label for="">Password</label>
+                    <input type="password" placeholder="Password">
                 </div>
                 <div class="form-row">
-                    <label for="re-password">Repeat password</label>
-                    <input type="password" name="re-password">
+                    <label for="">Repeat password</label>
+                    <input type="password" placeholder="Repeat password">
                 </div>
                 <div class="form-row">
                     <div class="btn">Get started</div>
@@ -52,7 +56,6 @@
             </form>
         </div>
     </div>
-
 </body>
 
 </html>
